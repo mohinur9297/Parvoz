@@ -265,13 +265,13 @@
     border-radius: 10px;
     overflow: hidden;
   }
-  .container .ish img{
+  .container .ish img .m{
     display: flex;
     width: calc(100% / 3 - 20px);
     border-radius: 10px;
     border: 1px solid;
   }
-  .container .ish img{
+  .container .ish img .m{
     display: flex;
     width: 490px;
     height: 500px;
