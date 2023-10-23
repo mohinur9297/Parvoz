@@ -1,0 +1,304 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  nav {
+    background-color: rgb(112, 183, 112);
+    height: 80px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    opacity: 0.9;
+  }
+  
+  nav .container {
+    height: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav .container .logo {
+    font-size: 24px;
+    color: rgb(21, 6, 36);
+  }
+  nav .container .logo i{
+    color: rgb(4, 11, 33);
+  }
+  nav .container ul {
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav .container ul li a {
+    color: rgb(17, 4, 28);
+  }
+  
+  nav .container button {
+    padding: 10px;
+    font-size: 18px;
+    background: orangered;
+    border: none;
+    border-radius: 10px 0;
+  }
+  
+  nav .container button:hover {
+    background: red;
+    border-radius: 10px;
+  }
+  
+  nav .container button a {
+    color: white;
+  }
+  
+  .first {
+    background-image: url(./photo_2023-10-19_09-41-26.jpg);
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  .first .container {
+  
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .first .container .box {
+    text-align: center;
+    max-width: 700px;
+  }
+  
+  .first .container .box h1 {
+    font-size: 40px;
+    color: rgb(112, 183, 112);
+  }
+  
+  .first .container .box p {
+    color:rgb(26, 26, 190);
+    font-weight: 300;
+    font-size: 25px;
+    margin: 20px 0;
+  }
+  
+  .first .container .box h1 {
+    color: blueviolet;
+    font-size: 40px;
+  }
+  
+  .first .container button {
+    padding: 10px;
+    font-size: 18px;
+    background: orangered;
+    border: none;
+    border-radius: 10px 0;
+  }
+  
+  .first .container button:hover {
+    background: red;
+    border-radius: 10px;
+  }
+  
+  .first .container button a {
+    color: white;
+  }
+  
+  .second {
+    margin: 80px 0;
+  }
+  
+  .second h1 {
+    font-weight: 500;
+    color: rgb(6, 1, 11);
+    font-size: 30px;
+  }
+  
+  .second .container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  .second .container .left {
+    width: calc(100% / 2 - 30px);
+    text-align: start;
+  }
+  
+  .second .container .left p {
+    margin: 20px 0;
+    color:rgb(112, 183, 112);
+    font-size: 25px;
+  }
+  
+  .second .container .left button {
+    padding: 10px;
+    font-size: 18px;
+    background: orangered;
+    border: none;
+    border-radius: 10px 0;
+  }
+  
+  .second .container .left button:hover {
+    background: red;
+    border-radius: 10px;
+  }
+  
+  .second .container .left button a {
+    color: white;
+  }
+  .second .container img {
+    
+    width: calc(100% / 3 - 30px);
+    border-radius: 10px;
+  }
+  
+  .third {
+    
+    margin: 60px 0;
+  }
+  
+  .third h1 {
+    font-weight: 500;
+    color: blueviolet;
+    font-size: 30px;
+  }
+  
+  .third .container {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    
+    display: flex;
+    gap: 15px;
+  }
+  
+  .third .container .card {
+    width: calc(100% / 4 - 20px);
+    
+    
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .third .container .card picture img {
+    width: 100%; 
+  }
+  
+  .third .container .card .text-field {
+    padding: 10px;
+  }
+  
+  .third .container .card .text-field .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+  }
+  
+  .third .container .card .text-field button {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 0;
+    background: orangered;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .third .container .card .text-field button a {
+    color: white;
+  }
+  
+  footer {
+    height: 120px;
+    background: rgb(112, 183, 112);
+  }
+  
+  footer .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  footer .container h3 {
+    font-size: 14px;
+    color: white;
+  }
+  
+  footer .container i {
+    font-size: 30px;
+    color: white;
+  }
+  .card picture img{
+    width: 700px;
+    height: 400px;
+    
+  }
+  .container .ish {
+    max-width: 1440px;
+    display: flex;
+    gap: 20px;
+    
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .container .ish img{
+    width: calc(100% / 3 - 20px);
+    border-radius: 10px;
+    border: 1px solid;
+  }
+  .container .ish img{
+    width: 490px;
+    height: 500px;
+    object-fit: cover;
+    
+  }
+  @media screen and (max-width: 968px){
+    .third .container .card {
+      width: calc(100% / 3 - 15px);
+    }
+  }
+  @media screen and (max-width: 680px){
+    .third .container .card {
+      width: calc(100% / 2 - 15px);
+    }
+  }
+  @media screen and (max-width: 400px){
+    .third .container .card {
+      width: 100%
+    }
+  }
+  @media screen and (max-width: 800px) {
+    nav{
+      height: auto;
+      padding: 15px 0;
+    }
+    nav .container{
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+  }
+  
