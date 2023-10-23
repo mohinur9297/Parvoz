@@ -146,6 +146,7 @@
   }
   
   .second .container .left p {
+    display: flex;
     margin: 20px 0;
     color:rgb(112, 183, 112);
     font-size: 25px;
