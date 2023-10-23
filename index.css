@@ -273,8 +273,8 @@
   }
   .container .ish img .m{
     display: flex;
-    width: 490px;
-    height: 500px;
+    width: 700px;
+    height: 400px;
     object-fit: cover;
     
   }
@@ -300,6 +300,7 @@
       font-size: 14px;
       padding: 20px;
     }
+    
   }
   @media screen and (max-width: 800px) {
     nav{
