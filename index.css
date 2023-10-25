@@ -97,12 +97,12 @@ nav .container button a {
 }
 
 .first .container .box h1 {
-  font-size: 40px;
+  font-size: 70px;
   color: rgb(112, 183, 112);
 }
 
 .first .container .box p {
-  color: rgb(26, 26, 190);
+  color: rgb(10, 10, 33);
   font-weight: 300;
   font-size: 25px;
   margin: 20px 0;
@@ -110,7 +110,7 @@ nav .container button a {
 
 .first .container .box h1 {
   color: blueviolet;
-  font-size: 40px;
+  font-size: 55px;
 }
 
 .first .container button {
@@ -156,7 +156,7 @@ nav .container button a {
 .second .container .left p {
   display: flex;
   margin: 20px 0;
-  color: rgb(26, 26, 190);
+  color: rgb(8, 8, 32);
   font-size: 25px;
 }
 
