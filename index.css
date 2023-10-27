@@ -310,11 +310,15 @@ footer .container i {
   .second .container {
     flex-direction: column;
   }
-
+ .bir .container{
+  flex-direction: column;
+ }
   .second .container .left {
     width: 80%;
   }
-
+  .bir .container .left{
+    width: 80%;
+  }
   .second .container img {
     width: 80%;
   }
@@ -328,11 +332,15 @@ footer .container i {
   .second .container .left p {
     font-size: 20px;
   }
-
+ .bir .container .left p{
+  font-size: 20px;
+ }
   .second .container .left {
     width: 90%;
   }
-
+ .bir .container .left{
+  width: 90%;
+ }
   .second .container img {
     width: 90%;
   }
@@ -353,16 +361,27 @@ footer .container i {
     font-size: 14px;
     padding: 20px;
   }
-
+ .bir .container .left p{
+  width: 100%;
+  font-size: 14px;
+  padding: 20px;
+ }
   .second .container .left p {
     padding: 0;
   }
-
+ .bir .container .left p{
+  padding: 0;
+ }
   .second {
     margin: 30px 0;
   }
-
+ .bir {
+  margin: 30px o;
+ }
   .second .container {
+    padding-top: 20px;
+  }
+  .bir .container{
     padding-top: 20px;
   }
 }
