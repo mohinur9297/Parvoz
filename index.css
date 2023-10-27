@@ -131,7 +131,12 @@ nav .container button a {
 }
 
 .second {
-  margin: 80px 0;
+  background-color: rgba(112, 183, 112, 0.685);
+ padding: 90px 0;
+}
+.bir{
+  background-color: rgba(112, 183, 112, 0.685);
+  padding:  90px 0;
 }
 
 .second h1 {
@@ -139,7 +144,11 @@ nav .container button a {
   color: rgb(6, 1, 11);
   font-size: 30px;
 }
+.bir h1 { font-weight: 500;
+  color:rgb(6, 1, 11) ;
+  font-size: 40px;
 
+}
 .second .container {
   display: flex;
   gap: 30px;
@@ -147,8 +156,19 @@ nav .container button a {
   align-items: center;
   padding: 50px 0;
 }
+.bir .container{
+  display: flex;
+  gap: 30px;
+  justify-content:center ;
+  align-items:center ;
+  padding: 50px 0;
+}
 
 .second .container .left {
+  width: calc(100% / 2 - 30px);
+  text-align: start;
+}
+.bir .container .left{
   width: calc(100% / 2 - 30px);
   text-align: start;
 }
@@ -159,8 +179,21 @@ nav .container button a {
   color: rgb(8, 8, 32);
   font-size: 25px;
 }
+.bir .container .left p {
+  display: flex;
+  margin: 20px 0;
+  color: rgb(8, 8, 32);
+  font-size: 40px;
+}
 
 .second .container .left button {
+  padding: 10px;
+  font-size: 18px;
+  background: orangered;
+  border: none;
+  border-radius: 10px 0;
+}
+.bir .container .left button{
   padding: 10px;
   font-size: 18px;
   background: orangered;
@@ -184,14 +217,14 @@ nav .container button a {
 }
 
 .third {
-
-  margin: 60px 0;
+  background-color: rgba(112, 183, 112, 0.685);
+  padding:  90px 0;
 }
 
 .third h1 {
   font-weight: 500;
   color: rgb(6, 1, 11);
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .third .container {
